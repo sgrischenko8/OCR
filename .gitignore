@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Пакетування (pip install -e .)
+*.egg-info/
+build/
+dist/
+
+# Віртуальне оточення
+venv/
+.venv/
+env/
+
+# Згенеровані пайплайном файли (не код, не потрібні в репо)
+events.jsonl
+events_consolidated.jsonl
+output*.mp4
+events_consolidated_screenshots/
+# Модель EAST (важкий бінарник, качається окремо за інструкцією в README)
+frozen_east_text_detection.pb
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
